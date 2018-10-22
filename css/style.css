@@ -1,0 +1,188 @@
+body {
+    background-image: linear-gradient(182.44deg, #22CDFB -57.77%, #4E9BFC -1.56%, #AE2FFF 120.58%);
+    /*background-color: green;*/
+    font-family: 'Rubik', sans-serif;
+}
+
+/*centraliza conteudo verticalmente*/
+div.vertical-center{
+  min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+  min-height: 100vh; /* These two lines are counted as one :-)       */
+
+  display: flex;
+  align-items: center;
+}
+
+.jumbotron{
+  /*margin-top: 0px;*/
+  background-color: white;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+
+  border-radius: 0.5rem;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+  margin-top: 30px;
+}
+
+
+hr{
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+h6{
+	font-size: 13px;
+	margin-top: -6px;
+	margin-bottom: 10px;
+	color: #616161;
+	
+}
+h1{
+	font-size: 1.60em;
+	color: #616161;
+}
+.linguagem-prog{
+	font-size: 0.9rem;
+}
+div.prog{
+	/*margin-top: 25px;*/
+	margin-bottom: 25px;
+}
+
+.rede-social{
+	margin-right: 13px;
+
+}
+
+.purple-color{
+	color:#715EEE;
+}
+
+div.conteudo{
+	margin-top: 20px;
+}
+
+.progress{
+	height: 0.6rem;
+
+}
+.progress-bar{
+	background-color: #715EEE;
+	height: 0.6rem;
+}
+
+.teste {
+    transform: translateY( 20% );
+    /*height: 70px;*/
+}
+
+#perfil{
+	margin-bottom: 25px;
+}
+
+.img-shadow{
+}
+
+/*.btn-circle {
+    background-color: red;
+    border-radius: 200px;
+    border: none;
+    padding: 0px;
+    margin: 0px;
+    
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-image: url("btn1Active.svg");
+}*/
+
+
+.btn-circle {
+    border: none;
+    border-radius: 200px;
+	fill: #C4C4C4;
+    padding: 0px;
+    cursor: pointer;
+    background-color: white;
+    color: white;
+}
+
+.btn-circle:hover {
+    fill: #715EEE;
+    /*stroke: #715EEE !important;*/
+}
+button:focus{
+	outline: none;
+}
+a:focus{
+	outline: none;
+}
+
+.atv{
+    fill: #715EEE;
+
+}
+
+.cirati{
+    stroke: #715EEE ;
+
+}
+
+.hide{
+	display: none;
+}
+
+.show{
+	display: block;
+}
+
+/*remove padding do canto das barras de programacao*/
+
+div.col-9{
+	padding-left: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/********************/
+
+::-webkit-scrollbar-track {
+    background-color: white;
+}
+::-webkit-scrollbar {
+    width: 6px;
+}
+::-webkit-scrollbar-thumb {
+    background: #dad7d7;
+	border-radius: 10px;
+}
+
+
+.scroll{
+	height: 181px;
+	width: auto;
+	overflow-y: auto;
+	overflow-x: hidden;
+
+}
+
+
+/*.visible-scrollbar, .invisible-scrollbar, .mostly-customized-scrollbar {
+  display: block;
+  width: 10em;
+  overflow: auto;
+  height: 10em;
+}
+.invisible-scrollbar::-webkit-scrollbar {
+  display: none;
+}*/

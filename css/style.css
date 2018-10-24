@@ -136,6 +136,10 @@ a:focus{
 	display: block;
 }
 
+.oi{
+  margin-bottom: 0px;
+}
+
 /*remove padding do canto das barras de programacao*/
 
 div.col-9{
